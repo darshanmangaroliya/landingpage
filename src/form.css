@@ -1,0 +1,59 @@
+.shadow2 { 
+    display: inline-block  !important;;
+    flex-direction: column;
+    box-shadow: 0 7px 30px -10px rgba(63, 71, 75, 0.5);
+   
+    margin-top: 20px;
+  }
+
+  .vertically{
+display: flex;
+flex-direction: column;
+
+  }
+
+ .wrapper{
+     display: flex;
+     align-items: flex-start;
+     justify-content: flex-end;
+ }
+
+ .selectdropdown{
+     display: flex;
+     margin-left: 70px;
+
+ }
+ .selectoptions{
+  border: 1px solid black ;
+ }
+
+ .selectmenu{
+    box-shadow: 0 7px 30px -10px rgba(63, 71, 75, 0.5);
+   
+    margin-top: 20px;
+    height: 60px;
+ }
+
+ .heading{
+     display: flex;
+     
+ }
+
+ .mainwrapper{
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid blue;
+    border-radius: 5%;
+    height: auto;
+    padding: 60px;
+    margin: 10px;
+    overflow: hidden;
+    flex-wrap: wrap;
+ }
+
+ .button{
+     margin-top: 20px;
+ }
